@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Play Video</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-buttons  (click)="dismiss()" float-right padding-top padding-end>
+    <ion-icon slot="icon-only" name="close" color="light"></ion-icon>
+</ion-buttons>
+
+<ion-row class="ion-align-items-center rowSection">
+<iframe [src]="sanitizer.bypassSecurityTrustResourceUrl(videourl)" allow="autoplay;" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</ion-row>
+</ion-content>

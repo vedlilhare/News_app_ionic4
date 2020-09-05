@@ -1,0 +1,14 @@
+{
+    "HOME": {
+        "title": "홈에 오신 것을 환영합니다.",
+        "text": "이것은 응용 프로그램에서 번역을 보여주는 임의의 텍스트입니다"
+    },
+     "LOGIN": {
+        "login_text": "오신 홈에",
+         "welcome_text": "환영합니다",
+        "register_text": "응용 프로그램에서",
+        "choose_language":"언어 선택"
+        
+    },
+     "alert_success" : "언어가 성공적으로 변경되었습니다."
+}

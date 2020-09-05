@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title >{{ 'LOGIN.welcome_text' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+<ion-content padding>
+  <ion-button (click)="login()" expand="block">{{ 'LOGIN.login_text' | translate }}</ion-button>
+  <ion-button expand="block" color="success" routerLink="/register"  routerDirection="forward">{{ 'LOGIN.register_text' | translate }}</ion-button>
+
+</ion-content>
+
+<!-- Footer without a border -->
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button expand="full" (click)="selectlang()">{{ 'LOGIN.choose_language' | translate }}</ion-button>
+  </ion-toolbar>
+</ion-footer>

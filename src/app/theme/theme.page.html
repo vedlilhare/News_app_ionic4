@@ -1,0 +1,8 @@
+
+<ion-content>
+  <ion-list *ngFor = "let name of thenmename" >
+  <ion-item (click)="changetheme(name.name)">   
+     <ion-label  >{{name.name}}</ion-label> 
+  </ion-item>
+</ion-list>
+</ion-content>

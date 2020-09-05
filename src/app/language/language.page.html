@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-text-center">{{ 'LOGIN.choose_language' | translate }}</ion-title>
+     <ion-buttons slot="secondary">
+    
+    <ion-button (click)="closemodal()">
+      <ion-icon slot="icon-only" name="close"></ion-icon>
+    </ion-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+<ion-list>
+    <ion-item>
+      <ion-label>{{ 'LOGIN.choose_language' | translate }}</ion-label>
+      <ion-select interface="popover" class="custom-options" placeholder="Select One" [(ngModel)]="selectedLanguage" (ionChange)="languageChanged()">
+        <ion-select-option value="en">English</ion-select-option>
+        <ion-select-option value="ko">Korean</ion-select-option>
+        <ion-select-option value="hi">हिन्दी</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  
+
+
+</ion-content>

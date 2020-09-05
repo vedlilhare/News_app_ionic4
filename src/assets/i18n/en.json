@@ -1,0 +1,15 @@
+{
+    "HOME": {
+        "title": "Ionic 4 Multi Language Translation",
+        "text": "This is random text to show translation in application"
+    },
+    "LOGIN": {
+        "login_text": "login",
+        "welcome_text": "Welcome",
+        "register_text": "register",
+        "choose_language":"Choose Language"
+        
+    },
+ "alert_success" : "Language changed succesfully"
+   
+}
